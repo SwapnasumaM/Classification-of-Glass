@@ -4,7 +4,6 @@ This is a dataset from USA Forensic Science Service which has description of 6 t
 
 #(https://archive.ics.uci.edu/ml/datasets/glass+identification).Load the dataset from here.
 # import dependencies
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -15,7 +14,7 @@ import seaborn as sns
 from sklearn.metrics import classification_report, accuracy_score
 from sklearn.model_selection import cross_val_score
 
-#loading the data
+# loading the data
 df = pd.read_csv('glass.csv')
 df.head()
         RI     Na    Mg    Al     Si     K    Ca   Ba   Fe  Type
