@@ -15,9 +15,10 @@ import seaborn as sns
 from sklearn.metrics import classification_report, accuracy_score
 from sklearn.model_selection import cross_val_score
 
-# loading the data
+#loading the data
 df = pd.read_csv('glass.csv')
 df.head()
+
         RI     Na    Mg    Al     Si     K    Ca   Ba   Fe  Type
 0  1.52101  13.64  4.49  1.10  71.78  0.06  8.75  0.0  0.0     1
 1  1.51761  13.89  3.60  1.36  72.73  0.48  7.83  0.0  0.0     1
